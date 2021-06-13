@@ -18,10 +18,15 @@ http://localhost:8000/file.php?/music/pop/inxs/the+greatest+hits/02+original+sin
 in my case:
 
 var a = document.createElement("audio");
+
 var s = document.createElement("source");
+
 s.type = 'audio/mpeg';
+
 s.src = '/file.php?/music/pop/inxs/the+greatest+hits/02+original+sin.mp3';
+
 a.appendChild(s);
+
 a.play();
 
 this will now allow 
