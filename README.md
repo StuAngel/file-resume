@@ -15,7 +15,7 @@ additionally: if offset is set to 0 I log the fact the file has been accessed al
 example usage:
 http://localhost:8000/file.php?/music/pop/inxs/the+greatest+hits/02+original+sin.mp3
 
-in my case its 
+in my case:
 
 var a = document.createElement("audio");
 var s = document.createElement("source");
